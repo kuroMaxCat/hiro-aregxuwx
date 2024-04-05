@@ -54,6 +54,26 @@
                 ></a-image>
             </a-marker>
 
+            <!-- Test Baseball Man-->
+            <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/pattern-37747.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA"
+            >
+                <a-image
+                    src="assets/S__57073674.jpg"
+                    scale="1 1 1"
+                    class="clickable"
+                    rotation="-90 0 0"
+                    gesture-handler
+                ></a-image>
+            </a-marker>
+
             <a-entity camera></a-entity>
         </a-scene>
     </body>
