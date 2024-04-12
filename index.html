@@ -151,6 +151,46 @@
                     gesture-handler
                 ></a-image>
             </a-marker>
+
+             <!--kiwii-->
+             <a-marker
+             id="animated-marker"
+             type="pattern"
+             preset="custom"
+             url="assets/pattern-kiwi.patt"
+             raycaster="objects: .clickable"
+             emitevents="true"
+             cursor="fuse: false; rayOrigin: mouse;"
+             id="markerA"
+         >
+             <a-image
+                 src="assets/kiw.jpg"
+                 scale="2 4 1"
+                 class="clickable"
+                 rotation="-90 0 0"
+                 gesture-handler
+             ></a-image>
+            </a-marker>
+
+            <a-marker
+             id="animated-marker"
+             type="pattern"
+             preset="custom"
+             url="assets/pattern-tori.patt"
+             raycaster="objects: .clickable"
+             emitevents="true"
+             cursor="fuse: false; rayOrigin: mouse;"
+             id="markerA"
+         >
+             <a-image
+                 src="assets/kiwii.png"
+                 scale="2 4 1"
+                 class="clickable"
+                 rotation="-90 0 0"
+                 gesture-handler
+             ></a-image>
+            </a-marker>
+
             <a-entity camera></a-entity>
         </a-scene>
     </body>
